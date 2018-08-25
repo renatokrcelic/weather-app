@@ -1,0 +1,30 @@
+.inputWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+.inputWrapper input { border:none;
+   background: #fff;
+   display: block;
+   width: 100%;
+   box-sizing: border-box
+ }
+.inputWrapper img {
+  position: absolute;
+  top: 3px;
+  right: 5px
+}
+.cityInput {
+  text-align: left;
+  font-size: 14px;
+  padding: 8px 40px 8px 20px;
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  margin-top: 24px;
+  border-radius: 4px;
+  font-family: "Open Sans", sans-serif;
+}
+.cityInput::-webkit-input-placeholder {
+  color: #A9A9A9;
+}
