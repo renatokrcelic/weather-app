@@ -24,7 +24,7 @@ export class WeatherContainer extends Component {
 
   componentDidMount() {
     const {fetchWeather} = this.props
-    fetchWeather('Zürich', 'CH')
+    fetchWeather('Zurich', 'CH')
   }
 
   _handleChange = (e, type) => {
